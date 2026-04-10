@@ -1,0 +1,70 @@
+{
+  "trees": [
+    {
+      "uid": "T-001",
+      "sample_name": "Oak-A1",
+      "species_code": "QUER-ALB",
+      "site": "North Ridge",
+      "project_code": "PRJ-2024-01",
+      "data_types": ["Genomic", "Transcriptomic"],
+      "location": "Server-A/Path/To/Data"
+    },
+    {
+      "uid": "T-002",
+      "sample_name": "Oak-A2",
+      "species_code": "QUER-ALB",
+      "site": "North Ridge",
+      "project_code": "PRJ-2024-01",
+      "data_types": ["Genomic"],
+      "location": "Server-A/Path/To/Data"
+    },
+    {
+      "uid": "T-003",
+      "sample_name": "Pine-B1",
+      "species_code": "PINU-STR",
+      "site": "South Valley",
+      "project_code": "PRJ-2024-02",
+      "data_types": ["Metabolomic"],
+      "location": "Cloud-Storage/Bucket-B"
+    },
+    {
+      "uid": "T-004",
+      "sample_name": "Maple-C1",
+      "species_code": "ACER-SAC",
+      "site": "East Slope",
+      "project_code": "PRJ-2023-05",
+      "data_types": ["Genomic", "Phenotypic"],
+      "location": "Local-NAS/Volume-1"
+    }
+  ],
+  "projects": [
+    {
+      "code": "PRJ-2024-01",
+      "description": "Oak Resilience Study",
+      "lead_group": "Forestry Dept",
+      "dtypes": ["Genomic", "Transcriptomic"]
+    },
+    {
+      "code": "PRJ-2024-02",
+      "description": "Pine Growth Patterns",
+      "lead_group": "Ecology Lab",
+      "dtypes": ["Metabolomic"]
+    },
+    {
+      "code": "PRJ-2023-05",
+      "description": "Maple Syrup Yield Analysis",
+      "lead_group": "Agriculture Div",
+      "dtypes": ["Genomic", "Phenotypic"]
+    }
+  ],
+  "controlled_vocab": {
+    "species": [
+      { "code": "QUER-ALB", "name": "Quercus alba (White Oak)" },
+      { "code": "PINU-STR", "name": "Pinus strobus (Eastern White Pine)" },
+      { "code": "ACER-SAC", "name": "Acer saccharum (Sugar Maple)" }
+    ],
+    "sites": ["North Ridge", "South Valley", "East Slope", "West Plain"],
+    "data_types": ["Genomic", "Transcriptomic", "Metabolomic", "Phenotypic", "Proteomic"],
+    "tissue_types": ["Leaf", "Bark", "Root", "Seed"]
+  }
+}
