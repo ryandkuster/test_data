@@ -89,6 +89,15 @@
       "project_code": "PRJ-2023-05",
       "data_types": ["Genomic", "Transcriptomic", "Phenotypic"],
       "location": "Server-X/Path/To/Data"
+    },
+    {
+      "uid": "T-012",
+      "sample_name": "Oak-A2",
+      "species_code": "QUER-ALB",
+      "site": "East Slope",
+      "project_code": "PRJ-2023-05",
+      "data_types": ["Transcriptomic", "Phenotypic"],
+      "location": "Server-X/Path/To/Data"
     }
   ],
   "projects": [
