@@ -35,6 +35,60 @@
       "project_code": "PRJ-2023-05",
       "data_types": ["Genomic", "Phenotypic"],
       "location": "Local-NAS/Volume-1"
+    },
+    {
+      "uid": "T-005",
+      "sample_name": "Maple-C1",
+      "species_code": "ACER-SAC",
+      "site": "East Slope",
+      "project_code": "PRJ-2023-05",
+      "data_types": ["Genomic", "Phenotypic"],
+      "location": "Local-NAS/Volume-1"
+    },
+    {
+      "uid": "T-006",
+      "sample_name": "Maple-C1",
+      "species_code": "ACER-SAC",
+      "site": "East Slope",
+      "project_code": "PRJ-2023-05",
+      "data_types": ["Genomic", "Phenotypic"],
+      "location": "Local-NAS/Volume-1"
+    },
+    {
+      "uid": "T-007",
+      "sample_name": "Maple-C1",
+      "species_code": "ACER-SAC",
+      "site": "East Slope",
+      "project_code": "PRJ-2023-05",
+      "data_types": ["Genomic", "Phenotypic"],
+      "location": "Local-NAS/Volume-1"
+    },
+    {
+      "uid": "T-008",
+      "sample_name": "Maple-C1",
+      "species_code": "ACER-SAC",
+      "site": "East Slope",
+      "project_code": "PRJ-2023-05",
+      "data_types": ["Genomic", "Phenotypic"],
+      "location": "Local-NAS/Volume-1"
+    },
+    {
+      "uid": "T-010",
+      "sample_name": "Oak-A1",
+      "species_code": "QUER-ALB",
+      "site": "North Ridge",
+      "project_code": "PRJ-2024-01",
+      "data_types": ["Genomic", "Transcriptomic"],
+      "location": "Server-A/Path/To/Data"
+    },
+    {
+      "uid": "T-011",
+      "sample_name": "Oak-A1",
+      "species_code": "QUER-ALB",
+      "site": "East Slope",
+      "project_code": "PRJ-2023-05",
+      "data_types": ["Genomic", "Transcriptomic", "Phenotypic"],
+      "location": "Server-X/Path/To/Data"
     }
   ],
   "projects": [
